@@ -16,7 +16,7 @@ ENV LEMON_SQUEEZY_WEBHOOK_SECRET=your_actual_secret_here
 ENV DATABASE_URL=sqlite:///./subscriptions.db
 
 # Make port 8080 available to the world outside this container
-EXPOSE 8080
+# EXPOSE 8080
 
 # Create a non-root user and switch to it
 RUN adduser --disabled-password --gecos '' appuser
